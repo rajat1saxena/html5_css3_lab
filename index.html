@@ -5,21 +5,19 @@
 
     <script type="text/javascript">
       window.onscroll = function() {
-        var about = document.getElementById('about');
         var scrollAnchor = document.getElementById('scrollanchor');
         if (window.scrollY > 300){
           scrollAnchor.style.display = "block";
         } else {
           scrollAnchor.style.display = "none";
         }
-        console.log('scrolling' + window.scrollY);
       }
 
       function scrollToTop() {
         window.scrollTo(0, 0);
       }
     </script>
-    
+
   </head>
   <body>
     <a id="scrollanchor" href="#">Scroll to top</a>
