@@ -65,3 +65,16 @@ div#contact .split > * {
 #contact_form input[type='submit']:hover {
   background: green;
 }
+
+a#scrollanchor {
+  position: fixed;
+  top: 90%;
+  left: 80%;
+  background: #0c0d44;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+  z-index: 1;
+  text-decoration: none;
+  display: none;
+}
