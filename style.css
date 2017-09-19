@@ -66,12 +66,13 @@ div#contact .split > * {
   background: green;
 }
 
-a#scrollanchor {
+#scrollanchor {
   position: fixed;
   top: 90%;
   left: 80%;
   background: #0c0d44;
   padding: 10px;
+  border: none;
   border-radius: 2px;
   color: white;
   z-index: 1;
