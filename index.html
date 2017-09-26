@@ -2,8 +2,26 @@
   <head>
     <title>Rajat Saxena - Full Stack Developer</title>
     <link rel="stylesheet" href="style.css"/>
+
+    <script type="text/javascript">
+      window.onscroll = function() {
+        var scrollButton = document.getElementById("scrollToTop");
+        if (window.scrollY > 400) {
+          scrollButton.style.display = "block";
+        } else {
+          scrollButton.style.display = "none";
+        }
+      }
+      
+      function scrollToTop() {
+        window.scrollTo(0,0);
+        console.log('Scrolled');
+      }
+    </script>
   </head>
   <body>
+    <button id="scrollToTop" onclick="scrollToTop()">Scroll to top</button>
+
     <!-- Hero area of my web page -->
     <div id="hero">
       <div class="content">
